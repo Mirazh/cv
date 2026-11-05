@@ -24,15 +24,15 @@ window.CV = {
   ],
 
   skills: [
-    { group: { en: 'Languages', ru: 'Языки' }, items: ['JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'SQL'] },
-    { group: { en: 'Frontend', ru: 'Фронтенд' }, items: ['React', 'Redux', 'Vue.js', 'SCSS', { en: 'Responsive Design', ru: 'Адаптивная вёрстка' }, 'SPA', { en: 'Component Architecture', ru: 'Компонентная архитектура' }] },
-    { group: { en: 'State Management', ru: 'Управление состоянием' }, items: ['Redux', 'Context API', 'Pinia'] },
-    { group: { en: 'API & Backend', ru: 'API и бэкенд' }, items: ['REST API', 'Node.js', 'Express', 'Sequelize'] },
-    { group: { en: 'Testing', ru: 'Тестирование' }, items: ['Jest', 'React Testing Library', 'Postman'] },
-    { group: { en: 'Databases', ru: 'Базы данных' }, items: ['MySQL'] },
-    { group: { en: 'Tools', ru: 'Инструменты' }, items: ['Git', 'GitHub', 'GitLab', 'Bitbucket', 'Jira', 'Confluence', 'Figma', 'Miro', 'Slack'] },
-    { group: { en: 'Methodologies', ru: 'Методологии' }, items: ['Agile', 'Scrum', 'Kanban', { en: 'Code Review', ru: 'Код-ревью' }, { en: 'Refactoring', ru: 'Рефакторинг' }] },
-    { group: { en: 'Domains', ru: 'Домены' }, items: [{ en: 'HR Software', ru: 'HR-системы' }, 'iGaming', { en: 'Workforce Management', ru: 'Управление персоналом' }, { en: 'Smart TV Applications', ru: 'Приложения для Smart TV' }] }
+    { group: 'Languages', items: ['JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'SQL'] },
+    { group: 'Frontend', items: ['React', 'Redux', 'Vue.js', 'SCSS', 'Responsive Design', 'SPA', 'Component Architecture'] },
+    { group: 'State Management', items: ['Redux', 'Context API', 'Pinia'] },
+    { group: 'API & Backend', items: ['REST API', 'Node.js', 'Express', 'Sequelize'] },
+    { group: 'Testing', items: ['Jest', 'React Testing Library', 'Postman'] },
+    { group: 'Databases', items: ['MySQL'] },
+    { group: 'Tools', items: ['Git', 'GitHub', 'GitLab', 'Bitbucket', 'Jira', 'Confluence', 'Figma', 'Miro', 'Slack'] },
+    { group: 'Methodologies', items: ['Agile', 'Scrum', 'Kanban', 'Code Review', 'Refactoring'] },
+    { group: 'Domains', items: ['HR Software', 'iGaming', 'Workforce Management', 'Smart TV Applications'] }
   ],
 
   languages: [
@@ -103,7 +103,7 @@ window.CV = {
               'Участвовал в найме: проводил технические интервью с кандидатами и оценивал их соответствие требованиям проекта.'
             ]
           },
-          tags: [{ en: 'Team Lead', ru: 'Тимлид' }, { en: 'Hiring', ru: 'Найм' }, { en: 'Custom XML framework', ru: 'Собственный XML-фреймворк' }]
+          tags: ['Team Lead', 'Hiring', 'Custom XML framework']
         },
         {
           name: 'UKG',
@@ -129,7 +129,7 @@ window.CV = {
               'Помогал другой команде в разработке общих компонентов проекта.'
             ]
           },
-          tags: ['Flexmonster', 'Highcharts', { en: 'Refactoring', ru: 'Рефакторинг' }, { en: 'Architecture', ru: 'Архитектура' }]
+          tags: ['Flexmonster', 'Highcharts', 'Refactoring', 'Architecture']
         }
       ]
     },
@@ -160,7 +160,7 @@ window.CV = {
               'Помогал другой команде в разработке общих компонентов проекта.'
             ]
           },
-          tags: ['Flexmonster', 'Highcharts', { en: 'Refactoring', ru: 'Рефакторинг' }]
+          tags: ['Flexmonster', 'Highcharts', 'Refactoring']
         },
         {
           name: 'EPAM',
