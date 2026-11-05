@@ -93,7 +93,7 @@
     var c = CV.contacts, ui = UI[lang];
     var html = '';
     html += '<div class="id">';
-    html += '<div class="monogram" aria-hidden="true">' + (lang === 'ru' ? 'ДС' : 'DS') + '</div>';
+    html += '<img class="photo" src="' + esc(CV.photo) + '" width="280" height="280" alt="' + esc(t(CV.name)) + '">';
     html += '<h1 class="name">' + esc(t(CV.name)) + '</h1>';
     html += '<p class="role">' + esc(t(CV.title)) + '</p>';
     html += '<p class="loc">' + ICONS.pin + esc(t(CV.location)) + '</p>';

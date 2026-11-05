@@ -6,6 +6,7 @@ window.CV = {
   name: { en: 'Denis Sidorenko', ru: 'Денис Сидоренко' },
   title: 'Senior Frontend Engineer',
   location: { en: 'Gomel, Belarus', ru: 'Гомель, Беларусь' },
+  photo: 'assets/photo.jpg',
   contacts: {
     email: 'dongor7@gmail.com',
     telegram: 'Dongor7',

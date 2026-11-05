@@ -100,18 +100,15 @@ svg { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; s
 .lang-switch button.is-active { background: var(--ink); color: var(--bg); }
 
 /* ---------- Sidebar ---------- */
-.monogram {
-  width: 64px;
-  height: 64px;
-  display: grid;
-  place-items: center;
-  border-radius: 16px;
-  background: var(--accent);
-  color: var(--accent-ink);
-  font-weight: 700;
-  font-size: 22px;
-  letter-spacing: .02em;
-  margin-bottom: 22px;
+.photo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 24px;
+  background: var(--tag-bg);
+  box-shadow: 0 0 0 1px var(--line), 0 10px 30px rgba(0, 0, 0, .08);
+  margin-bottom: 24px;
 }
 .name {
   font-size: 36px;
@@ -356,7 +353,8 @@ svg { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; s
     --line: #ddd; --accent: #b23a0a; --tag-bg: #f1f1f1;
   }
   body { font-size: 11pt; line-height: 1.45; }
-  .lang-switch, .actions, .monogram, .foot { display: none !important; }
+  .lang-switch, .actions, .foot { display: none !important; }
+  .photo { width: 30mm; height: 30mm; border-radius: 4mm; box-shadow: none; margin-bottom: 4mm; }
   .page { display: block; padding: 0; max-width: none; }
   .side { position: static; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 6mm; margin-bottom: 6mm; }
   .side .id { grid-column: 1 / -1; }
