@@ -206,7 +206,7 @@ window.CV = {
 
   education: [
     {
-      degree: { en: 'Bachelor of Science in Software Engineering', ru: 'Бакалавр, программная инженерия' },
+      degree: { en: 'Bachelor of Science in Software Engineering', ru: 'Программист-инженер' },
       school: { en: 'Gomel State University', ru: 'Гомельский государственный университет' },
       year: '2017'
     }
