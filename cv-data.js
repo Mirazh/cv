@@ -4,7 +4,7 @@
  */
 window.CV = {
   name: { en: 'Denis Sidorenko', ru: 'Денис Сидоренко' },
-  title: { en: 'Senior Frontend Engineer', ru: 'Senior Frontend-разработчик' },
+  title: 'Senior Frontend Engineer',
   location: { en: 'Gomel, Belarus', ru: 'Гомель, Беларусь' },
   contacts: {
     email: 'dongor7@gmail.com',
@@ -14,7 +14,7 @@ window.CV = {
 
   summary: {
     en: 'Senior Frontend Engineer with 7+ years of experience building scalable web applications using JavaScript, TypeScript, React, Redux, Vue.js, HTML, and SCSS. Experienced in HR/workforce management, iGaming and smart TV domains. Strong background in developing complex frontend modules, integrating REST APIs, improving performance, refactoring legacy code, and leading frontend delivery. Worked as a key/lead developer on large-scale projects, combining hands-on development with technical leadership, code reviews, mentoring, and cross-functional collaboration.',
-    ru: 'Senior Frontend-разработчик с опытом более 7 лет в создании масштабируемых веб-приложений на JavaScript, TypeScript, React, Redux, Vue.js, HTML и SCSS. Работал в доменах HR и управления персоналом, iGaming и Smart TV. Большой опыт разработки сложных фронтенд-модулей, интеграции REST API, оптимизации производительности, рефакторинга legacy-кода и руководства фронтенд-разработкой. Был ключевым и ведущим разработчиком на крупных проектах, совмещая практическую разработку с техническим лидерством, код-ревью, менторством и кросс-функциональным взаимодействием.'
+    ru: 'Senior Frontend Engineer с опытом более 7 лет в создании масштабируемых веб-приложений на JavaScript, TypeScript, React, Redux, Vue.js, HTML и SCSS. Работал в доменах HR и управления персоналом, iGaming и Smart TV. Большой опыт разработки сложных фронтенд-модулей, интеграции REST API, оптимизации производительности, рефакторинга legacy-кода и руководства фронтенд-разработкой. Был ключевым и ведущим разработчиком на крупных проектах, совмещая практическую разработку с техническим лидерством, код-ревью, менторством и кросс-функциональным взаимодействием.'
   },
 
   highlights: [
@@ -48,7 +48,7 @@ window.CV = {
       from: '2025-09', to: '2026-07',
       projects: [
         {
-          roles: [{ title: { en: 'Senior Vue.js Developer', ru: 'Senior Vue.js-разработчик' }, from: '2025-09', to: '2026-07' }],
+          roles: [{ title: 'Senior Vue.js Developer', from: '2025-09', to: '2026-07' }],
           intro: {
             en: 'Worked on a player-facing iGaming web platform and internal product modules using Vue.js, TypeScript, JavaScript, HTML, and SCSS.',
             ru: 'Работал над пользовательской iGaming веб-платформой и внутренними продуктовыми модулями на Vue.js, TypeScript, JavaScript, HTML и SCSS.'
@@ -86,7 +86,7 @@ window.CV = {
         {
           name: 'Vizio',
           domain: { en: 'smart TVs domain', ru: 'домен Smart TV' },
-          roles: [{ title: { en: 'Lead Developer', ru: 'Ведущий разработчик' }, from: '2024-08', to: '2025-05' }],
+          roles: [{ title: 'Lead Developer', from: '2024-08', to: '2025-05' }],
           bullets: {
             en: [
               'Collaborated with customers. Created, prioritized and distributed tasks.',
@@ -109,8 +109,8 @@ window.CV = {
           name: 'UKG',
           domain: { en: 'HR and workforce management domain', ru: 'домен HR и управления персоналом' },
           roles: [
-            { title: { en: 'Senior Key Developer', ru: 'Senior ключевой разработчик' }, from: '2022-06', to: '2023-02' },
-            { title: { en: 'Lead Developer', ru: 'Ведущий разработчик' }, from: '2023-03', to: '2024-07' }
+            { title: 'Senior Key Developer', from: '2022-06', to: '2023-02' },
+            { title: 'Lead Developer', from: '2023-03', to: '2024-07' }
           ],
           team: 'PM, PO, BA, FE/BE devs, QAs',
           bullets: {
@@ -142,7 +142,7 @@ window.CV = {
         {
           name: 'UKG',
           domain: { en: 'HR and workforce management domain', ru: 'домен HR и управления персоналом' },
-          roles: [{ title: { en: 'Key Developer', ru: 'Ключевой разработчик' }, from: '2019-09', to: '2022-05' }],
+          roles: [{ title: 'Key Developer', from: '2019-09', to: '2022-05' }],
           team: 'PM, PO, BA, FE/BE devs, QAs',
           bullets: {
             en: [
@@ -165,7 +165,7 @@ window.CV = {
         {
           name: 'EPAM',
           domain: { en: 'training/education domain', ru: 'домен обучения и образования' },
-          roles: [{ title: { en: 'Junior Developer', ru: 'Junior-разработчик' }, from: '2018-12', to: '2019-08' }],
+          roles: [{ title: 'Junior Developer', from: '2018-12', to: '2019-08' }],
           bullets: {
             en: [
               'Implemented new features like different kinds of forms, new pages with the result of passing tests.',
@@ -186,7 +186,7 @@ window.CV = {
       from: '2018-07', to: '2018-11',
       projects: [
         {
-          roles: [{ title: { en: 'Junior FE/BE Developer', ru: 'Junior FE/BE-разработчик' }, from: '2018-07', to: '2018-11' }],
+          roles: [{ title: 'Junior FE/BE Developer', from: '2018-07', to: '2018-11' }],
           bullets: {
             en: [
               'Implemented new UI elements with pure JS and CSS.',

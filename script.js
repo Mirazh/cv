@@ -14,8 +14,8 @@
       present: 'present', openToWork: 'Open to new opportunities'
     },
     ru: {
-      docTitle: 'Денис Сидоренко — Senior Frontend-разработчик',
-      docDescription: 'Senior Frontend-разработчик с опытом более 7 лет: JavaScript, TypeScript, React, Redux, Vue.js. Домены HR и управления персоналом, iGaming и Smart TV.',
+      docTitle: 'Денис Сидоренко — Senior Frontend Engineer',
+      docDescription: 'Senior Frontend Engineer с опытом более 7 лет: JavaScript, TypeScript, React, Redux, Vue.js. Домены HR и управления персоналом, iGaming и Smart TV.',
       about: 'Обо мне', skills: 'Навыки', experience: 'Опыт работы', courses: 'Курсы и сертификаты',
       languages: 'Языки', education: 'Образование', contacts: 'Контакты',
       download: 'Сохранить в PDF', team: 'Команда', project: 'Проект',
